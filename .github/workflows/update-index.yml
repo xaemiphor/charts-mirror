@@ -1,0 +1,41 @@
+name: Update Index
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    type:
+      - update-index
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@main
+        with:
+          ref: gh-pages
+          fetch-depth: 1
+
+      - name: Helm Installation
+        uses: azure/setup-helm@main
+
+      - name: Update Indexes
+        shell: bash
+        run: |
+          git config --global user.name "$(git log -n 1 --pretty=format:%an)"
+          git config --global user.email "$(git log -n 1 --pretty=format:%ae)"
+          for x in $(find . -mindepth 1 -maxdepth 1 -type d -printf '%P\n' | grep -v '^\.'); do
+            echo "::group:: Processing ${x}"
+            cd $x
+            helm repo index .
+            if [[ $(git status --porcelain . | wc -l) -gt 0 ]]; then
+              git add index.yaml
+              git commit -m "ci: Update helm index for ${x}"
+            fi
+            cd ..
+            echo "::endgroup::"
+          done
+          git pull --rebase && git push
