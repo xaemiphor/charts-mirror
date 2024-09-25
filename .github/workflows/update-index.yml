@@ -20,7 +20,9 @@ jobs:
           fetch-depth: 1
 
       - name: Helm Installation
-        uses: azure/setup-helm@main
+        uses: azure/setup-helm@v4
+        with:
+          version: 'latest'
 
       - name: Update Indexes
         shell: bash
