@@ -17,12 +17,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: argocd
-            url: https://argoproj.github.io/argo-helm
-          - name: cloudnative-pg
-            url: https://cloudnative-pg.github.io/charts
-          - name: prometheus-community
-            url: https://prometheus-community.github.io/helm-charts
+          - { name: 'argocd', url: 'https://argoproj.github.io/argo-helm' }
+          - { name: 'cloudnative-pg', url: 'https://cloudnative-pg.github.io/charts' }
+          - { name: 'prometheus-community', url: 'https://prometheus-community.github.io/helm-charts' }
     steps:
       - name: Git Checkout
         uses: actions/checkout@main
@@ -66,13 +63,14 @@ jobs:
           done
           if [[ -e ../changed.txt ]]; then
               echo "::group::Syncing to repo"
+              cd ..
               git pull --rebase && git push
               echo "::endgroup::"
           fi
 
       - uses: actions/upload-artifact@main
         with:
-          name: changed
+          name: changed-${{ matrix.name }}
           path: changed.txt
 
   dispatch:
@@ -83,7 +81,7 @@ jobs:
       - name: Load changes
         uses: actions/download-artifact@main
         with:
-          name: changed
+          pattern: changed-*
           path: changed
 
       - name: Identify if indexes need updating

@@ -37,7 +37,7 @@ jobs:
               git add index.yaml
               git commit -m "ci: Update helm index for ${x}"
             fi
-            cd ..
+            cd ${{ github.workspace }}
             echo "::endgroup::"
           done
           git pull --rebase && git push
