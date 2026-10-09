@@ -3,7 +3,7 @@ entries:
   cloudnative-pg:
   - apiVersion: v2
     appVersion: 1.30.1
-    created: "2026-10-08T03:34:30.949260676Z"
+    created: "2026-10-09T03:39:52.257759487Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -33,7 +33,7 @@ entries:
     version: 0.29.1
   - apiVersion: v2
     appVersion: 1.30.0
-    created: "2026-10-08T03:34:30.942191873Z"
+    created: "2026-10-09T03:39:52.252671579Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -63,7 +63,7 @@ entries:
     version: 0.29.0
   - apiVersion: v2
     appVersion: 1.29.1
-    created: "2026-10-08T03:34:30.934828407Z"
+    created: "2026-10-09T03:39:52.247350728Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -93,7 +93,7 @@ entries:
     version: 0.28.3
   - apiVersion: v2
     appVersion: 1.29.1
-    created: "2026-10-08T03:34:30.927914341Z"
+    created: "2026-10-09T03:39:52.242356608Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -123,7 +123,7 @@ entries:
     version: 0.28.2
   - apiVersion: v2
     appVersion: 1.29.1
-    created: "2026-10-08T03:34:30.921026426Z"
+    created: "2026-10-09T03:39:52.237582843Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -153,7 +153,7 @@ entries:
     version: 0.28.1
   - apiVersion: v2
     appVersion: 1.29.0
-    created: "2026-10-08T03:34:30.91399149Z"
+    created: "2026-10-09T03:39:52.232813966Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -182,7 +182,7 @@ entries:
     version: 0.28.0
   - apiVersion: v2
     appVersion: 1.28.1
-    created: "2026-10-08T03:34:30.90710118Z"
+    created: "2026-10-09T03:39:52.227939873Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -211,7 +211,7 @@ entries:
     version: 0.27.1
   - apiVersion: v2
     appVersion: 1.28.0
-    created: "2026-10-08T03:34:30.900328365Z"
+    created: "2026-10-09T03:39:52.223094428Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -240,7 +240,7 @@ entries:
     version: 0.27.0
   - apiVersion: v2
     appVersion: 1.27.1
-    created: "2026-10-08T03:34:30.89332179Z"
+    created: "2026-10-09T03:39:52.218283563Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -269,7 +269,7 @@ entries:
     version: 0.26.1
   - apiVersion: v2
     appVersion: 1.27.0
-    created: "2026-10-08T03:34:30.885974445Z"
+    created: "2026-10-09T03:39:52.213513403Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -298,7 +298,7 @@ entries:
     version: 0.26.0
   - apiVersion: v2
     appVersion: 1.26.1
-    created: "2026-10-08T03:34:30.879279995Z"
+    created: "2026-10-09T03:39:52.209018274Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -327,7 +327,7 @@ entries:
     version: 0.25.0
   - apiVersion: v2
     appVersion: 1.26.0
-    created: "2026-10-08T03:34:30.872659618Z"
+    created: "2026-10-09T03:39:52.204532018Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -356,7 +356,7 @@ entries:
     version: 0.24.0
   - apiVersion: v2
     appVersion: 1.25.1
-    created: "2026-10-08T03:34:30.866571978Z"
+    created: "2026-10-09T03:39:52.199921759Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -385,7 +385,7 @@ entries:
     version: 0.23.2
   - apiVersion: v2
     appVersion: 1.25.0
-    created: "2026-10-08T03:34:30.860318121Z"
+    created: "2026-10-09T03:39:52.195441246Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -414,7 +414,7 @@ entries:
     version: 0.23.1
   - apiVersion: v2
     appVersion: 1.25.0
-    created: "2026-10-08T03:34:30.853199805Z"
+    created: "2026-10-09T03:39:52.189802562Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -443,7 +443,7 @@ entries:
     version: 0.23.0
   - apiVersion: v2
     appVersion: 1.24.1
-    created: "2026-10-08T03:34:30.845080113Z"
+    created: "2026-10-09T03:39:52.183638778Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -472,7 +472,7 @@ entries:
     version: 0.22.1
   - apiVersion: v2
     appVersion: 1.24.0
-    created: "2026-10-08T03:34:30.840164535Z"
+    created: "2026-10-09T03:39:52.180171228Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -501,7 +501,7 @@ entries:
     version: 0.22.0
   - apiVersion: v2
     appVersion: 1.23.3
-    created: "2026-10-08T03:34:30.833962031Z"
+    created: "2026-10-09T03:39:52.175841017Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -530,7 +530,7 @@ entries:
     version: 0.21.6
   - apiVersion: v2
     appVersion: 1.23.2
-    created: "2026-10-08T03:34:30.828055564Z"
+    created: "2026-10-09T03:39:52.171550199Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -559,7 +559,7 @@ entries:
     version: 0.21.5
   - apiVersion: v2
     appVersion: 1.23.1
-    created: "2026-10-08T03:34:30.822782985Z"
+    created: "2026-10-09T03:39:52.167049056Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -588,7 +588,7 @@ entries:
     version: 0.21.4
   - apiVersion: v2
     appVersion: 1.23.1
-    created: "2026-10-08T03:34:30.818131141Z"
+    created: "2026-10-09T03:39:52.163234624Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -617,7 +617,7 @@ entries:
     version: 0.21.3
   - apiVersion: v2
     appVersion: 1.23.1
-    created: "2026-10-08T03:34:30.812564845Z"
+    created: "2026-10-09T03:39:52.160011004Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -646,7 +646,7 @@ entries:
     version: 0.21.2
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2026-10-08T03:34:30.807237921Z"
+    created: "2026-10-09T03:39:52.156181421Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -675,7 +675,7 @@ entries:
     version: 0.21.1
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2026-10-08T03:34:30.802457896Z"
+    created: "2026-10-09T03:39:52.152176684Z"
     dependencies:
     - alias: monitoring
       condition: monitoring.grafanaDashboard.create
@@ -704,7 +704,7 @@ entries:
     version: 0.21.0
   - apiVersion: v2
     appVersion: 1.22.2
-    created: "2026-10-08T03:34:30.782255527Z"
+    created: "2026-10-09T03:39:52.137929839Z"
     description: CloudNativePG Operator Helm Chart
     digest: b3ec7cdced059cd98d61932be546d7233a28b27d28a5f2fd9c076d54998be3bb
     home: https://cloudnative-pg.io
@@ -727,7 +727,7 @@ entries:
     version: 0.20.2
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2026-10-08T03:34:30.777177701Z"
+    created: "2026-10-09T03:39:52.133599092Z"
     description: CloudNativePG Helm Chart
     digest: c9fd95e3a56241d99f6a27f801488e6d70dfdd9bcd0e49420f28847d9377414d
     home: https://cloudnative-pg.io
@@ -748,7 +748,7 @@ entries:
     version: 0.20.1
   - apiVersion: v2
     appVersion: 1.22.0
-    created: "2026-10-08T03:34:30.773027449Z"
+    created: "2026-10-09T03:39:52.129599708Z"
     description: CloudNativePG Helm Chart
     digest: 44d55c35d46a08b79c4b158005363ae9b4f07640afede9133c4776000893f786
     home: https://cloudnative-pg.io
@@ -769,7 +769,7 @@ entries:
     version: 0.20.0
   - apiVersion: v2
     appVersion: 1.21.1
-    created: "2026-10-08T03:34:30.768326315Z"
+    created: "2026-10-09T03:39:52.125553496Z"
     description: CloudNativePG Helm Chart
     digest: 9ed9734d81f40157270826ed8f5e3d3586fc51bbc6c17f8dc25d2694a8d8a630
     home: https://cloudnative-pg.io
@@ -790,7 +790,7 @@ entries:
     version: 0.19.1
   - apiVersion: v2
     appVersion: 1.21.0
-    created: "2026-10-08T03:34:30.764766894Z"
+    created: "2026-10-09T03:39:52.122407399Z"
     description: CloudNativePG Helm Chart
     digest: 309b310b03079273f34d68b80138929cf06ba784d88e95e04eef4b188662ab51
     home: https://cloudnative-pg.io
@@ -811,7 +811,7 @@ entries:
     version: 0.19.0
   - apiVersion: v2
     appVersion: 1.20.2
-    created: "2026-10-08T03:34:30.760099739Z"
+    created: "2026-10-09T03:39:52.118782057Z"
     description: CloudNativePG Helm Chart
     digest: 8709ac9d4df50efaa0fd15e3e2abca494ff7b674cac11f491e284f7474efb8ec
     home: https://cloudnative-pg.io
@@ -832,7 +832,7 @@ entries:
     version: 0.18.2
   - apiVersion: v2
     appVersion: 1.20.1
-    created: "2026-10-08T03:34:30.756433422Z"
+    created: "2026-10-09T03:39:52.115345442Z"
     description: CloudNativePG Helm Chart
     digest: afeae6a314bf81eded0bf6d8fb19a7781c6a76021e0351575dd6e34629ce42eb
     home: https://cloudnative-pg.io
@@ -853,7 +853,7 @@ entries:
     version: 0.18.1
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2026-10-08T03:34:30.751751177Z"
+    created: "2026-10-09T03:39:52.111989251Z"
     description: CloudNativePG Helm Chart
     digest: bee8133154b041f5cab2473ba9e116d1b251810dc68d8d6a1f6db61c44caa968
     home: https://cloudnative-pg.io
@@ -874,7 +874,7 @@ entries:
     version: 0.18.0
   - apiVersion: v2
     appVersion: 1.19.1
-    created: "2026-10-08T03:34:30.747761481Z"
+    created: "2026-10-09T03:39:52.109646228Z"
     description: CloudNativePG Helm Chart
     digest: e763d09edd35ec84923e0f9ed206f6c164fc93a2ca6b3b7557bb6fb97f459165
     home: https://cloudnative-pg.io
@@ -895,7 +895,7 @@ entries:
     version: 0.17.2
   - apiVersion: v2
     appVersion: 1.19.1
-    created: "2026-10-08T03:34:30.744419071Z"
+    created: "2026-10-09T03:39:52.106825632Z"
     description: CloudNativePG Helm Chart
     digest: ca5ea6b0f550a15d978b21437e2713f4b39521058c3908f8d28c5b711961b9e7
     home: https://cloudnative-pg.io
@@ -916,7 +916,7 @@ entries:
     version: 0.17.1
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2026-10-08T03:34:30.740288879Z"
+    created: "2026-10-09T03:39:52.104513274Z"
     description: CloudNativePG Helm Chart
     digest: 181f5cfe8293d8a23e8e013496d3d16900128539cc9c727e27b16f45edb17b1c
     home: https://cloudnative-pg.io
@@ -937,7 +937,7 @@ entries:
     version: 0.17.0
   - apiVersion: v2
     appVersion: 1.18.1
-    created: "2026-10-08T03:34:30.737024499Z"
+    created: "2026-10-09T03:39:52.101668667Z"
     description: CloudNativePG Helm Chart
     digest: 69d858f50d18dec7c0a7d6cccfa3663493c0d1bb30d1f5d7d5e3822845fa4701
     home: https://cloudnative-pg.io
@@ -958,7 +958,7 @@ entries:
     version: 0.16.1
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2026-10-08T03:34:30.733349333Z"
+    created: "2026-10-09T03:39:52.099463497Z"
     description: CloudNativePG Helm Chart
     digest: 6c9190f2692b74c1158b89293471c9b41c2bcf80843077554b9f46554a5a1780
     home: https://cloudnative-pg.io
@@ -979,7 +979,7 @@ entries:
     version: 0.16.0
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2026-10-08T03:34:30.730401953Z"
+    created: "2026-10-09T03:39:52.096787238Z"
     description: CloudNativePG Helm Chart
     digest: 31fdbc370c7a815003b1038693253b33547fccb0a813aa32ee2a2398fe406871
     home: https://cloudnative-pg.io
@@ -1000,7 +1000,7 @@ entries:
     version: 0.15.1
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2026-10-08T03:34:30.726569931Z"
+    created: "2026-10-09T03:39:52.094611963Z"
     description: CloudNativePG Helm Chart
     digest: ee7b62c8b2b3157e1d640e41bdc23ccd58095a330abbb03df5e85e00ed71af47
     home: https://cloudnative-pg.io
@@ -1021,7 +1021,7 @@ entries:
     version: 0.15.0
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2026-10-08T03:34:30.723623058Z"
+    created: "2026-10-09T03:39:52.091991647Z"
     description: CloudNativePG Helm Chart
     digest: 43e4189512ae0535136beb39259a5e0ca138081adadc36d6a82de389241c518c
     home: https://cloudnative-pg.io
@@ -1042,7 +1042,7 @@ entries:
     version: 0.14.3
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2026-10-08T03:34:30.720027389Z"
+    created: "2026-10-09T03:39:52.08984974Z"
     description: CloudNativePG Helm Chart
     digest: 5c37ecf3a31aec5ec7a617bd43cbbb1b18dab90bca72079038bf33be4a05168b
     home: https://cloudnative-pg.io
@@ -1063,7 +1063,7 @@ entries:
     version: 0.14.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2026-10-08T03:34:30.717096673Z"
+    created: "2026-10-09T03:39:52.087046143Z"
     description: CloudNativePG Helm Chart
     digest: c151aeb40b1aaa8637b8d72bdaca7b6e6447e843bc72a8906a3b25212d9e1ed3
     home: https://cloudnative-pg.io
@@ -1084,7 +1084,7 @@ entries:
     version: 0.14.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-08T03:34:30.713473138Z"
+    created: "2026-10-09T03:39:52.084862676Z"
     description: CloudNativePG Helm Chart
     digest: 047177f0deca652e0f794855bf2c7b3260a6761cf6688b5fac895cf3793714d7
     home: https://cloudnative-pg.io
@@ -1105,7 +1105,7 @@ entries:
     version: 0.14.0
   - apiVersion: v2
     appVersion: 1.15.1
-    created: "2026-10-08T03:34:30.710438232Z"
+    created: "2026-10-09T03:39:52.081994664Z"
     description: CloudNativePG Helm Chart
     digest: 77f57fc327b6c4662a11f3b4f8d6d8362bc0d9e30541defaa26da66420b912cb
     home: https://cloudnative-pg.io
@@ -1126,7 +1126,7 @@ entries:
     version: 0.13.1
   - apiVersion: v2
     appVersion: 1.15.0
-    created: "2026-10-08T03:34:30.706365223Z"
+    created: "2026-10-09T03:39:52.0794576Z"
     description: CloudNativePG Helm Chart
     digest: add055e89c87863ac8234ce7311586354da6a8ee3ed4e8b13763cdb3405f37b3
     home: https://cloudnative-pg.io
@@ -1147,7 +1147,7 @@ entries:
     version: 0.13.0
   cluster:
   - apiVersion: v2
-    created: "2026-10-08T03:34:31.011960103Z"
+    created: "2026-10-09T03:39:52.304228587Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 95b23ee4b7e2b24d7aec03a9b6a7b751ce42c7447f1299a34460764a43a8f030
     home: https://cloudnative-pg.io
@@ -1168,7 +1168,7 @@ entries:
     - cluster-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:31.007903622Z"
+    created: "2026-10-09T03:39:52.301009979Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: c4387533e66581a293ea2592837a645e00be8c2fcc16c1520c1f775b3cce1d7e
     home: https://cloudnative-pg.io
@@ -1189,7 +1189,7 @@ entries:
     - cluster-0.8.1.tgz
     version: 0.8.1
   - apiVersion: v2
-    created: "2026-10-08T03:34:31.003753683Z"
+    created: "2026-10-09T03:39:52.298067863Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: fdf49d876cedb76c0e409b7f891a536d4f4dca2e8970127f2d5bb222d0c003d7
     home: https://cloudnative-pg.io
@@ -1210,7 +1210,7 @@ entries:
     - cluster-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.999297243Z"
+    created: "2026-10-09T03:39:52.294542122Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 004979dddcf5df8c5e3589fa6cc574e4c4e4c6bffac1238549908cf21b9c2b5f
     home: https://cloudnative-pg.io
@@ -1231,7 +1231,7 @@ entries:
     - cluster-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.996106867Z"
+    created: "2026-10-09T03:39:52.29210447Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 5027d329dedb6c40c3cffb71f14d53d97816babe80274eb2f6c244fb16c8d18c
     home: https://cloudnative-pg.io
@@ -1252,7 +1252,7 @@ entries:
     - cluster-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.991860835Z"
+    created: "2026-10-09T03:39:52.289035798Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: f35a92e5e870ca8246e62b47ca36f89469d28abb9842abec8408c4b6728a7fd8
     home: https://cloudnative-pg.io
@@ -1272,7 +1272,7 @@ entries:
     - cluster-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.988783037Z"
+    created: "2026-10-09T03:39:52.286720185Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 9a5751c29e9e2c1d7655d602733ba33328ac4f302be21fa2497d0e6082b072e0
     home: https://cloudnative-pg.io
@@ -1292,7 +1292,7 @@ entries:
     - cluster-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.984805198Z"
+    created: "2026-10-09T03:39:52.283925697Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 875c9f154302b8f5248e83b35e3abcbb2128f8b033d819ef31416c89b6e21027
     home: https://cloudnative-pg.io
@@ -1312,7 +1312,7 @@ entries:
     - cluster-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.982494513Z"
+    created: "2026-10-09T03:39:52.28227174Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: e3567817bdcc8a6285c3cc54a2f12ba2cfe7f6c0144b35d231d2c106aa436d99
     home: https://cloudnative-pg.io
@@ -1332,7 +1332,7 @@ entries:
     - cluster-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.980323192Z"
+    created: "2026-10-09T03:39:52.280648988Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 76eee4c61afa1b33a868dde0dded21cb71928d5af1c0c60d5513058f68d225ac
     home: https://cloudnative-pg.io
@@ -1352,7 +1352,7 @@ entries:
     - cluster-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.977636356Z"
+    created: "2026-10-09T03:39:52.278565363Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 5381ad1600ae0845e95c5b649273c44c1c0df42bf4a0847d2be63a7393beea62
     home: https://cloudnative-pg.io
@@ -1372,7 +1372,7 @@ entries:
     - cluster-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.975156722Z"
+    created: "2026-10-09T03:39:52.277064712Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 4609e9eba121306b8c198341746ac87fa402b2e74477358ab0aa3d4ece5ae50e
     home: https://cloudnative-pg.io
@@ -1392,7 +1392,7 @@ entries:
     - cluster-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.973248343Z"
+    created: "2026-10-09T03:39:52.275500166Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 64a0c1f838a869a65160dbb61371aa394f85cee2cff7011ee4ae936c29bb3465
     home: https://cloudnative-pg.io
@@ -1412,7 +1412,7 @@ entries:
     - cluster-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.971107815Z"
+    created: "2026-10-09T03:39:52.274063128Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: e8b23d9325e7ff689ea54c0c5ea81fe0ecb919909fa2c5e9b2e97984201087b2
     home: https://cloudnative-pg.io
@@ -1432,7 +1432,7 @@ entries:
     - cluster-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.968680367Z"
+    created: "2026-10-09T03:39:52.272234653Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 2774fa58c0cbe106086cd20f14c508b0f1097bd51299d7df36f211bb289a3992
     home: https://cloudnative-pg.io
@@ -1452,7 +1452,7 @@ entries:
     - cluster-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.96627163Z"
+    created: "2026-10-09T03:39:52.270216014Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 302caf4257d1165fac11323c83ed642f045ef4d0a2d0673a1ce9b11ba891caa2
     home: https://cloudnative-pg.io
@@ -1472,7 +1472,7 @@ entries:
     - cluster-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.953399945Z"
+    created: "2026-10-09T03:39:52.260822341Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 477b0c4767aa4e1a010d7107bfdf584ed24b8f181d3595186d96990ce478f8e9
     home: https://cloudnative-pg.io
@@ -1492,7 +1492,7 @@ entries:
     - cluster-0.0.11.tgz
     version: 0.0.11
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.9517872Z"
+    created: "2026-10-09T03:39:52.259640509Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: c9f8769d917f62decb371636ab8fe4356a9d224a066dddb5d79e3d1660829b95
     home: https://cloudnative-pg.io
@@ -1512,7 +1512,7 @@ entries:
     - cluster-0.0.10.tgz
     version: 0.0.10
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.96436447Z"
+    created: "2026-10-09T03:39:52.268823281Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: dff863dff40016bee789d9821256c07cd7f8976800f523957263ce7690d623fe
     home: https://cloudnative-pg.io
@@ -1532,7 +1532,7 @@ entries:
     - cluster-0.0.9.tgz
     version: 0.0.9
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.963126752Z"
+    created: "2026-10-09T03:39:52.267916184Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 34d04775f7bdba50c06d25f2dac06247343da2c336eb8c805cf9cb78787b27cc
     home: https://cloudnative-pg.io
@@ -1552,7 +1552,7 @@ entries:
     - cluster-0.0.8.tgz
     version: 0.0.8
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.961760731Z"
+    created: "2026-10-09T03:39:52.267040795Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 7b0acd140565406a4b9e94143c04f0b0e480508abfbd35b6196ce86c54165dd6
     home: https://cloudnative-pg.io
@@ -1572,7 +1572,7 @@ entries:
     - cluster-0.0.7.tgz
     version: 0.0.7
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.960053616Z"
+    created: "2026-10-09T03:39:52.265822865Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: ed67e602f15e9a564fe796faa2567cba30e083c82e901171f85aa36aacea6d13
     home: https://cloudnative-pg.io
@@ -1592,7 +1592,7 @@ entries:
     - cluster-0.0.6.tgz
     version: 0.0.6
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.957914505Z"
+    created: "2026-10-09T03:39:52.264462605Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: c3d47dda8d687385c558c4159e09c9383c759e69ac1c14a6bd78c777a693ad16
     home: https://cloudnative-pg.io
@@ -1612,7 +1612,7 @@ entries:
     - cluster-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.956788727Z"
+    created: "2026-10-09T03:39:52.263583079Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 6293c2975d448c96baef595c07e9004a811d0b804a24f6d8946b70f5a0449d84
     home: https://cloudnative-pg.io
@@ -1632,7 +1632,7 @@ entries:
     - cluster-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.955619092Z"
+    created: "2026-10-09T03:39:52.262565049Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: e433a62d50a19a88ad7366250f361cac285226f6ba15703498efcb3bc0fb5511
     home: https://cloudnative-pg.io
@@ -1652,7 +1652,7 @@ entries:
     - cluster-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.954531498Z"
+    created: "2026-10-09T03:39:52.261657962Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 90cf5810381e4007cacede59453c9655118c5fb8260c9e57e9050d0389a6a08f
     home: https://cloudnative-pg.io
@@ -1672,7 +1672,7 @@ entries:
     - cluster-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
-    created: "2026-10-08T03:34:30.95012937Z"
+    created: "2026-10-09T03:39:52.258429174Z"
     description: Deploys and manages a CloudNativePG cluster and its associated resources.
     digest: 7d7a3355797856ff072cc6ccea68490fe5e3431697f9d7115f4453f65bd772fa
     home: https://cloudnative-pg.io
@@ -1694,7 +1694,7 @@ entries:
   cnpg-sandbox:
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2026-10-08T03:34:31.137982347Z"
+    created: "2026-10-09T03:39:52.394728899Z"
     dependencies:
     - condition: cloudnative-pg.enabled
       name: cloudnative-pg
@@ -1724,7 +1724,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2026-10-08T03:34:31.117399202Z"
+    created: "2026-10-09T03:39:52.379790329Z"
     dependencies:
     - condition: cloudnative-pg.enabled
       name: cloudnative-pg
@@ -1754,7 +1754,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2026-10-08T03:34:31.096212719Z"
+    created: "2026-10-09T03:39:52.365207865Z"
     dependencies:
     - condition: cloudnative-pg.enabled
       name: cloudnative-pg
@@ -1784,7 +1784,7 @@ entries:
     version: 0.5.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-08T03:34:31.074111798Z"
+    created: "2026-10-09T03:39:52.35056778Z"
     dependencies:
     - condition: cloudnative-pg.enabled
       name: cloudnative-pg
@@ -1814,7 +1814,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-08T03:34:31.054156938Z"
+    created: "2026-10-09T03:39:52.336216972Z"
     dependencies:
     - condition: cloudnative-pg.enabled
       name: cloudnative-pg
@@ -1844,7 +1844,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-08T03:34:31.033702704Z"
+    created: "2026-10-09T03:39:52.32072689Z"
     dependencies:
     - condition: cloudnative-pg.enabled
       name: cloudnative-pg
@@ -1874,7 +1874,7 @@ entries:
     version: 0.4.0
   pgbench:
   - apiVersion: v2
-    created: "2026-10-08T03:34:31.138439215Z"
+    created: "2026-10-09T03:39:52.395039717Z"
     description: A Helm chart that starts a CNPG Cluster and executes a PgBench job
       on it.
     digest: 97cff26e1b1724fcc22af3f6451e219b3dde599412a71244eb80ff7f8100f257
@@ -1892,7 +1892,7 @@ entries:
   plugin-barman-cloud:
   - apiVersion: v2
     appVersion: v0.15.1
-    created: "2026-10-08T03:34:31.149297005Z"
+    created: "2026-10-09T03:39:52.402239988Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: 9ad0b9e56da2777a1a0269feaf7215e18297e9c8b5730e04acb27b5d462e9456
@@ -1924,7 +1924,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: v0.15.0
-    created: "2026-10-08T03:34:31.147166897Z"
+    created: "2026-10-09T03:39:52.401541178Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: e9d8e8578d2757761fe5e1a761c762b54ccd02bc27df8ad251812aa2571c4d42
@@ -1956,7 +1956,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: v0.14.0
-    created: "2026-10-08T03:34:31.146216728Z"
+    created: "2026-10-09T03:39:52.400835608Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: 3b385372b21c9a5bfb12283726ef3a7a726ce1f7dbafa2c27e49aa50eb6207f2
@@ -1988,7 +1988,7 @@ entries:
     version: 0.7.1
   - apiVersion: v2
     appVersion: v0.13.0
-    created: "2026-10-08T03:34:31.145334027Z"
+    created: "2026-10-09T03:39:52.40017201Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: 683494c04cc94f7d33c4ac5f3d8d64c209634b48bd0e84da31d7d1fad22cdcdb
@@ -2020,7 +2020,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: v0.12.0
-    created: "2026-10-08T03:34:31.144447565Z"
+    created: "2026-10-09T03:39:52.399517526Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: dde43bf437bb4f7207473bee378b0cb869a9acb3bdead5d743290ab650c3224a
@@ -2052,7 +2052,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: v0.11.0
-    created: "2026-10-08T03:34:31.143562233Z"
+    created: "2026-10-09T03:39:52.398863682Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: 73bbf432b967dc4489cffffbb3bfc77d9247b7156a2c8558fc6b52aeff2d8bea
@@ -2083,7 +2083,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: v0.10.0
-    created: "2026-10-08T03:34:31.142726137Z"
+    created: "2026-10-09T03:39:52.398241766Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: ee8fd63687d4dfe92eb2f906df771819505095085d07ce86f2b7c960bce931b5
@@ -2114,7 +2114,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: v0.9.0
-    created: "2026-10-08T03:34:31.141864264Z"
+    created: "2026-10-09T03:39:52.397570056Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: ea9d01598bdc6646b2bc1325306102c056515087eb511ab8b91bc1af7a7f0ce9
@@ -2145,7 +2145,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2026-10-08T03:34:31.141038539Z"
+    created: "2026-10-09T03:39:52.396930453Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: 2a0b6b9d35f37145716fa8e7e555686f7992f95185ba2c3a9547db526eacf2a4
@@ -2176,7 +2176,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2026-10-08T03:34:31.140166803Z"
+    created: "2026-10-09T03:39:52.396316969Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: fac1326ebe5fc1bb17d14a7f62810a8cdab51d7c50186d316fcca36b03c6e8d2
@@ -2207,7 +2207,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: v0.5.0
-    created: "2026-10-08T03:34:31.139279099Z"
+    created: "2026-10-09T03:39:52.395678829Z"
     description: Helm Chart for CloudNativePG's CNPG-I backup plugin using Barman
       Cloud
     digest: a0c68d57ab50d6aee7f1ede51ecc634efcc796d5f60afcc188a454c0bcea1b69
@@ -2236,4 +2236,4 @@ entries:
     urls:
     - plugin-barman-cloud-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-08T03:34:30.70294837Z"
+generated: "2026-10-09T03:39:52.077061259Z"
